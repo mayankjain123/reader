@@ -1,0 +1,236 @@
+@CHARSET "ISO-8859-1";
+
+/* Author : Abhijeet Shedge */
+
+body {	
+	background-color: #FFF;
+}
+
+/* This style is specific to the class 'header'  
+   reference - http://www.color-hex.com/color/382110 |  goodreads.com
+*/
+.header h2 {
+	font-size: 300%;
+	color:#736357;
+	margin-bottom: .5em;
+	display: inline;
+}
+
+/* This style is specific to the class 'header'  */
+.header h1 {
+	font-size: 300%;
+	color:#5f4d3f;
+	margin-bottom: .5em;
+	display: inline;
+}
+
+.header img {
+	width: 70px;
+    height: 60px;
+}
+ 
+/* General style for h1 tag  */
+ h1 {
+	font-size: 140%;
+	margin-bottom: .5em;
+}
+
+/* arrange header, footer and body on web page  */
+
+/* top portion of the web page */
+.header { 
+    text-align:center;  /* border: 1px solid black; */  
+    padding:5px;	
+}
+
+.nameLogo {
+	height: auto;
+	width:500px;
+	display: inline-block;
+}
+
+.pageUpdates {
+	height: auto;
+	width: 150px;
+	display: inline-block;
+}
+
+.pageUpdates h4 {
+	text-align: right;
+	color: #9b9087;
+}
+
+h4.NavigationLink {
+	color: #ff0000;
+	text-decoration: none;
+}
+
+/* below header, spans over entire width */
+.userNavigation {
+	text-align: center;
+	width: auto;
+	height: 30px;
+}
+
+.userNavigation a {
+	color: #9b9087;
+	text-decoration: none;
+	display: inline;
+}
+
+.siteNavigation a {
+	color: #9b9087;
+	text-decoration: none;
+}
+/* 
+a.homeLink {
+	color: #ff0000;
+	text-decoration: none;
+}
+ */
+/* covers body of web page, has two vertical sections managing navigation and content 
+   display sub blocks as 'inline' so that they are displayed next to each other
+*/
+.section {
+	width: auto;
+	height: 400px;	/* also auto */
+}
+
+/* a vertical strip of specified width and auto adjusting height */
+.siteNavigation {
+	vertical-align: top;
+	width: 200px;
+	height: auto;
+	display: inline-block;
+}
+
+/* a rectangular box with auto adjustable height and width */
+.siteContent {
+	vertical-align: top;
+	width: 800px;
+	height: 400px;
+	display: inline-block;
+}
+
+.footer {
+	clear:both;
+	color: #9b9087;
+    text-align:center;
+    padding:5px;
+    width: auto;
+	height: 30px; 
+}
+
+/* style for HomeInformation data */
+.HomeInfo { 
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+
+.HomeInfo h4 {
+	padding: 0px;
+	text-align:justify;
+	color: #9b9087;
+	
+}
+
+.HomeInfo img{
+	width: 90px;
+    height: 140px;
+	display: inline;
+}
+
+.CatalogInfo h3 {
+	width: 800px;
+    height: 400px;
+	color: #9b9087;
+	display: inline;
+}
+
+.CatalogInfo select,option {
+	color: #9b9087;
+	display: inline;
+}
+
+.CatalogInfo img {
+	width:30px;
+	height:30px;
+}
+
+.CatalogInfo th,td {
+color: #9b9087;
+	text-align: justify;
+}
+
+
+/* style for ITEM information page */
+
+.itemInfor {
+	vertical-align: top;
+	text-align: left;
+	color: #9b9087;
+	display: inline-block;
+}
+
+.itemImg {
+	vertical-align: top;
+	display: inline-block;
+}
+
+.itemImg img {
+	width: 90px;
+    height: 140px;
+}
+
+.itemDescription h3,h4 {
+	color: #9b9087;
+}
+
+.itemDescription a {
+	text-decoration: none;
+}
+
+/* ----------------- X ---------------- */
+
+/* style for CART page */
+
+.cartNotice {
+	width:780px;
+	height:auto;  
+	color: #9b9087;
+}
+
+.cartItems {
+	width:780px;
+	height: auto;
+	color: #9b9087;
+}
+
+.algLef {
+	text-align: left;
+}
+
+
+.algRgt {
+	text-align: right;
+}
+
+.cartButtons {
+	width: 780px;
+}
+
+.cartButtons a {
+	float: right;
+	text-decoration: none;
+}
+
+.cartItems input {
+	width: 40px;
+}
+
+/* ----------------- X ---------------- */
+
+
+
+
